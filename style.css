@@ -1,0 +1,164 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family : 'poppins', 'sans-sarif';
+}
+.container{
+    display:flex;
+    height: 80px;
+    width: 100%;
+    background-color: #1A1919;
+    color:white;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.container ul li{
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+   
+
+}
+h1{
+    margin: 25px 0px 0px 40px;
+}
+h3{
+    margin-right: 40px;
+    cursor:pointer;
+    border-bottom: 1px white solid;
+   
+}
+.container h1 span{
+      color: maroon;
+}
+body{
+    background-color: #0C0F12 ;
+}
+ul li span{
+  font-weight: border;
+  font-size: 20px;
+}
+h3:hover{
+    opacity: 0.5;
+}
+ ul li{ 
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    
+    }
+     ul li::after{ 
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: white;
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    transition: 0.5s;
+    }
+    ul li:hover::after{
+        width: 100%;
+    }
+    /*body start*/
+    .hd{
+        padding-top: 30px;
+       font-size: 35px;
+       color: white;
+    }
+    .s-items{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        grid-gap: 50px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        
+    }
+    .s-items div{
+      border:0px solid white;
+      height:300px;
+      width: 200px;
+      margin-left: 30px;
+      margin-top: 40px;
+      border-radius: 15%;
+    }
+    .song img{
+        
+        width: 200px;
+height: 300px;
+        object-fit: cover;
+        border-radius: 15%;
+    }
+    .song1 img{
+        
+        width: 200px;
+height: 300px;
+        object-fit: cover;
+        border-radius: 15%;
+    }
+    .song2 img{
+        
+        width: 200px;
+height: 300px;
+        object-fit: cover;
+        border-radius: 15%;
+    }
+    .song3 img{
+        
+        width: 200px;
+height: 300px;
+        object-fit: cover;
+        border-radius: 15%;
+    }
+    .song4 img{
+        
+        width: 200px;
+height: 300px;
+        object-fit: cover;
+        border-radius: 15%;
+    }
+    .song5 img{
+        
+        width: 200px;
+height: 300px;
+        object-fit: cover;
+        border-radius: 15%;
+    }
+    .song6 img{
+        
+        width: 200px;
+height: 300px;
+        object-fit: cover;
+        border-radius: 15%;
+    }
+    .song7 img{
+        
+        width: 200px;
+height: 300px;
+        object-fit: cover;
+        border-radius: 15%;
+    }
+    .s-items h2{
+
+    color:white;
+    font-size: 20px;
+    }
+    .s-items img:hover{
+       opacity: 0.5;
+     
+       transform: translateY(-15px);
+       
+    }
+   
+   .more{
+    color:white;
+    
+    color: maroon;
+   margin-top:80px;
+    text-align: right;
+    margin-right: 50px;
+    font-size: 20px;
+    cursor: pointer;
+   }
