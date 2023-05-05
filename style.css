@@ -316,12 +316,15 @@ color: grey;
  
 
 }
-.container a{
+ a{
 text-decoration: none;
 color: white;
 
 }
 .lg h1 span{
+    color: maroon;
+}
+#sp a{ 
     color: maroon;
 }
 .lg h1{
