@@ -283,3 +283,61 @@ color: grey;
     color:grey;
     font-size: 13px;
 }
+/* signin page */
+.b{
+    padding-top: 100px;
+    padding-left: 500px;
+}
+.b input[type=email],[type=password]{
+    margin-bottom: 20px;
+    height: 50px;
+    width: 400px;
+    border:none;
+    border-bottom: 2px solid maroon;
+    background-color: #0C0F12 ;
+    color:white
+}
+.b input[type=submit]{
+    height: 30px;
+    width: 80px;
+   
+      margin-top:20px;
+      margin-left: 170px;
+      background-color: maroon;
+      border: none;
+      border-radius: 4px;
+      color:white;
+}
+.b input[type=submit]:hover{
+    opacity: 0.5;
+}
+.b input:focus{
+ outline: none;
+ 
+
+}
+.container a{
+text-decoration: none;
+color: white;
+
+}
+.lg h1 span{
+    color: maroon;
+}
+.lg h1{
+    color: white;
+     font-size: 60px;
+     margin-top: 100px;
+     margin-left: 550px;
+}
+.ac h4{
+    color:white;
+    margin-left: 800px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.ac h4 span{
+    color: maroon;
+    cursor: pointer;
+
+}
